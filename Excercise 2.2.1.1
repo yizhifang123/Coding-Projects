@@ -5,8 +5,8 @@ using namespace std;
 
 int main(){
   vector<tuple<int, string, string>> people;
-  while(getline(cin, line)){
-     tuple<int, string, string> person;
+  tuple<int, string, string> person;
+  while(cin >> person){
      cin >> person;
      people.push_back(person);
   }
