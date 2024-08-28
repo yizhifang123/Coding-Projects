@@ -20,5 +20,17 @@ void part1(){
     //copy all values of new square on square
 }
 void part2(){
-    
+    int newSquare[n][n];
+    for(int i=0; i<n; i++){
+        for(int l=0; l<n; l++){
+            newSquare[i][l] = square[l][i];
+        }
+    }
+    //square = newSquare;
+    //copy all values of new square on square
+}
+void part3(){
+    //use same strategy from part one and part 2
+    //when flipping across y axis just reverse columns
+    //when flipping across x axis reverse rows
 }
