@@ -16,7 +16,7 @@ bool custom_comparison(const tuple<int, string, string>& a, const tuple<int, str
 }
 
 int main() {
-    vector<tuple<int, string, string>> people;
+    vector<tuple<int, string, string>> people; 
     int id;
     string first_name, last_name;
 
@@ -29,6 +29,6 @@ int main() {
     for (const auto& person : people) {
         cout << get<0>(person) << ' ' << get<1>(person) << ' ' << get<2>(person) << endl;
     }
-
+ 
     return 0;
 }
