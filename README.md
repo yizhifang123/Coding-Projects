@@ -1,5 +1,7 @@
-# CP4Book-Excercises
+# Coding Projects
 
-Excercises for Book Competitive Programming 4
+Excercises for Book "Competitive Programming 4"
 
-Not all excercises
+*Not all excercises
+
+Also some USACO problems
